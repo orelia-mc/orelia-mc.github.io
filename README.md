@@ -1,10 +1,10 @@
-<img src="./public/assets/logo_wide.jpg" />
+<img src="https://orelia-mc.github.io/assets/logo_wide.jpg" />
 <h1 align="center">Orelia Web</h1>
-<p align="center">開発中の Orelia 公式サイト</p>
+<p align="center">Official Website of Orelia-MC</p>
 
 ## About
 
-`orelia-mc.github.io` は Minecraft RPG プラグイン群 **Orelia** の公式サイトです。Next.js の静的エクスポート (`output: "export"`) でビルドし、backend なしで GitHub Pages にホストしています。GitHub Pages の user/org ページとしてルートドメインに公開するため、リポジトリ名は `orelia-mc.github.io`(旧 `orelia-web`)です。
+`orelia-mc.github.io` は Minecraft RPG プラグイン群 **Orelia** の公式サイト(開発中)です。Next.js の静的エクスポート (`output: "export"`) でビルドし、backend なしで GitHub Pages にホストしています。GitHub Pages の user/org ページとしてルートドメインに公開するため、リポジトリ名は `orelia-mc.github.io`(旧 `orelia-web`)です。
 
 公開サイト: https://orelia-mc.github.io/
 
