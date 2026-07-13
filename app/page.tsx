@@ -25,6 +25,19 @@ const worldModules = [
   "Event",
 ];
 
+const extraModules = [
+  "Party",
+  "Guild",
+  "Trade",
+  "Mail",
+  "Auction",
+  "Housing",
+  "Pet",
+  "Mount",
+  "Ranking",
+  "Achievement",
+];
+
 export default function Home() {
   return (
     <>
@@ -57,7 +70,9 @@ export default function Home() {
             Orelia は Minecraft サーバー向けに設計された RPG プラグイン群です。
             戦闘・成長・経済などのゲームシステムを担う <strong>orelia-core</strong>、
             クエストや会話・ダンジョンなどの世界コンテンツを担う{" "}
-            <strong>orelia-world</strong> の 2 プラグインを中心に構成されています。
+            <strong>orelia-world</strong>、パーティ・ギルド・交易などの
+            後発 MMORPG 機能を担う <strong>orelia-extra</strong> の
+            3 プラグインを中心に構成されています。
           </p>
 
           <div className="card-grid">
@@ -83,11 +98,21 @@ export default function Home() {
             </div>
             <div className="card">
               <div className="card-icon">
+                <Icon icon="mdi:account-group" width={28} />
+              </div>
+              <div className="card-title">orelia-extra</div>
+              <p className="card-desc">
+                パーティ・ギルド・交易・郵便・オークション・住居・ペット・マウントなど、
+                後発の MMORPG 系機能を追加するプラグイン。
+              </p>
+            </div>
+            <div className="card">
+              <div className="card-icon">
                 <Icon icon="mdi:book-open-page-variant-outline" width={28} />
               </div>
               <div className="card-title">orelia-docs</div>
               <p className="card-desc">
-                両プラグインの設計・仕様をまとめたドキュメントサイト。
+                各プラグインの設計・仕様をまとめたドキュメントサイト。
                 アーキテクチャから API リファレンスまでを収録。
               </p>
               <div className="card-desc" style={{ marginTop: "0.75rem" }}>
@@ -118,6 +143,7 @@ export default function Home() {
           <div className="repo-grid">
             <RepoStatusCard owner="orelia-mc" repo="orelia-core" />
             <RepoStatusCard owner="orelia-mc" repo="orelia-world" />
+            <RepoStatusCard owner="orelia-mc" repo="orelia-extra" />
           </div>
         </section>
 
@@ -145,6 +171,12 @@ export default function Home() {
             <span className="module-group-label">orelia-world</span>
             {worldModules.map((m) => (
               <span key={m} className="module-chip world">
+                {m}
+              </span>
+            ))}
+            <span className="module-group-label">orelia-extra</span>
+            {extraModules.map((m) => (
+              <span key={m} className="module-chip extra">
                 {m}
               </span>
             ))}

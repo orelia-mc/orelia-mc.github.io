@@ -397,6 +397,11 @@ main {
   color: var(--accent);
 }
 
+.module-chip.extra {
+  border-color: rgba(217, 195, 156, 0.3);
+  color: var(--sand);
+}
+
 .module-group-label {
   font-family: var(--font-mono);
   font-size: 0.75rem;
