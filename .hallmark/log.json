@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-07-21",
+    "macrostructure": "Long Document",
+    "theme": "custom",
+    "theme_axes": "dark / roman-sans / cool-neutral (ice cyan primary + sand secondary)",
+    "vibe": "Minecraft ice-biome devlog, brand-locked to existing photography",
+    "enrichment": "none",
+    "nav": "N9",
+    "footer": "Ft6",
+    "brief": "orelia-web redesign — preserve base (Next.js static export, RepoStatusCard fetch logic, fonts, copy, ice/sand brand colors), restructure visual layer only"
+  }
+]
