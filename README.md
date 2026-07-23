@@ -1,6 +1,4 @@
-<img src="https://orelia-mc.github.io/assets/logo_wide.jpg" />
-<h1 align="center">Orelia Web</h1>
-<p align="center">Official Website of Orelia-MC</p>
+![orelia-mc.github.io](https://socialify.git.ci/orelia-mc/orelia-mc.github.io/image?description=1&language=1&name=1&owner=1&pattern=Plus&theme=Dark)
 
 ## About
 
